@@ -1,0 +1,28 @@
+{
+  "name": "babel-plugin-uglify",
+  "version": "1.0.0",
+  "description": "UglifyJS integration for Babel",
+  "repository": "RReverser/babel-plugin-uglify",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "dependencies": {
+    "uglify-js": "^2.4.24"
+  },
+  "devDependencies": {
+    "babel": "^5.8.19",
+    "chalk": "^1.1.0",
+    "clear": "0.0.1",
+    "diff": "^1.4.0",
+    "watch": "^0.16.0"
+  },
+  "scripts": {
+    "release": "babel src --out-dir dist",
+    "test": "node test",
+    "watch": "node test --watch"
+  },
+  "keywords": [
+    "babel-plugin",
+    "sample",
+    "example"
+  ]
+}
