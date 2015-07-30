@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-uglify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UglifyJS integration for Babel",
   "repository": "RReverser/babel-plugin-uglify",
   "license": "MIT",
@@ -22,7 +22,7 @@
   },
   "keywords": [
     "babel-plugin",
-    "sample",
-    "example"
+    "uglify",
+    "minify"
   ]
 }
