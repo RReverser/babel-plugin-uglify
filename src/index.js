@@ -4,8 +4,9 @@ var compressor = Compressor();
 
 class LocationFixer extends TreeWalker {
 	constructor(path) {
+		var filename = path.hub.file.opts.filenameRelative;
 		super(node => {
-			node.start.file = node.end.file = path.hub.file.opts.filenameRelative;
+			node.start.file = node.end.file = filename;
 		});
 	}
 }
