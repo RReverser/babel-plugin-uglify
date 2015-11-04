@@ -11,7 +11,7 @@ class LocationFixer extends TreeWalker {
 	}
 }
 
-export default ({ Plugin, types: t }) => new Plugin('uglify', {
+export default ({ types: t }) => ({
 	visitor: {
 		Program(ast) {
 			// Convert to UglifyJS AST
